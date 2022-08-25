@@ -59,9 +59,18 @@ function Header({ type }) {
               </li>
               <li>
                 <Link href={'/'}>
-                  <a className="btn-1" onClick={() => setActive(!active)}>
+                  
+                  
+                  <a className="btn-1 padlock" onClick={() => setActive(!active)}>
+                  <Image
+                  src={'/images/lock.svg'} 
+                  alt="lock"
+                  width={30}
+                  height={30}
+                  />
                   Claim
                   </a>
+                  
                 </Link>
               </li>
             </ul>

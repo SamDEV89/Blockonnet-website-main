@@ -16,7 +16,8 @@ export default function GetInEarly() {
           <div className="early-left">
             <div className="inner-container">
               <h1>
-                GET IN EARLY ON THE <br /> BLOCKONNECT PRE-SALE
+                BLOCKONNECT PRESALE IS NOW LIVE! <br />
+                DON'T MISS OUT
               </h1>
               <p>
                 Blockonnect is the next generation one-stop-shop for handling
@@ -29,7 +30,7 @@ export default function GetInEarly() {
               <span>1 USDT = 66.67 BCON</span>
               <br />
               <br />
-              <span>USDT Raised : $1,072,869.985/$4,750,000</span>
+              <span>USDT Raised : $1,072,869.98/$4,750,000</span>
               <br />
               <br />
             </div>
@@ -39,10 +40,13 @@ export default function GetInEarly() {
             <div className="inner-container-right">
               <div className="right-left">
                 <div className="fill-cont">
-                  
-                  <div className="fill"></div>
-                  <div className="fill"></div>
-                  <div className="fill"></div>
+                {/* https://www.color-hex.com/color/ff421d */}
+                  <div className="fill fill-1"></div>
+                  <div className="fill fill-2"></div>
+                  <div className="fill fill-3"></div>
+                  <div className="fill fill-4"></div>
+                  <div className="fill fill-5"></div>
+                  <div className="fill fill-6"></div>
                 </div>
               </div>
               <div className="right-right">

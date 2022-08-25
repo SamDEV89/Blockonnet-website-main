@@ -21,35 +21,40 @@ export default function PayOptions() {
           <div className="early-left">
             <div className="inner-container">
               <h1>
-                GET IN EARLY ON THE <br /> BLOCKONNECT PRE-SALE
+                BLOCKONNECT PRESALE IS NOW LIVE! <br />
+                DON'T MISS OUT
               </h1>
               <p>
-                BLOCKONNECT is the ultimate GameFi platform, <br />
-                and it couldn't be easier to get your hands on the <br />
-                token in our pre-sale. You can buy directly using <br />
-                your card, or can use USDT or Eth already in your
-                <br />
-                wallet. After the public presale ends, you'll be <br />
-                able to claim your purchased BLOCKONNECT <br />
-                using the claim page.
+                Blockonnect is the next generation one-stop-shop for handling
+                cryptocurrency transactions and is now available for purchase
+                via pre sale! To make sure you dont miss out on the early access
+                of $BCON, follow the steps below to make your purchase.
               </p>
               <br />
               <br />
               <span>1 USDT = 66.67 BCON</span>
               <br />
               <br />
-              <span>USDT Raised : $4,072,869.985/$4,750,000</span>
+              <span>USDT Raised : $1,072,869.98/$4,750,000</span>
               <br />
               <br />
-              <div className="fill-cont">
-                <div className="fill-hold">
-                  <div className="fill"></div>
-                </div>
-              </div>
             </div>
           </div>
 
-          <div className="early-right shift">
+          <div className="early-right">
+            <div className="inner-container-right">
+              <div className="right-left">
+                <div className="fill-cont">
+                <div className="fill fill-1"></div>
+                  <div className="fill fill-2"></div>
+                  <div className="fill fill-3"></div>
+                  <div className="fill fill-4"></div>
+                  <div className="fill fill-5"></div>
+                  <div className="fill fill-6"></div>
+                </div>
+              </div>
+              <div className="right-right">
+              <div className="early-right shift">
             <div className="inner-container">
               
                 <div className="after-connect-links flex-gap-y-6">
@@ -81,6 +86,12 @@ export default function PayOptions() {
               
             </div>
           </div>
+                
+                
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
       <Modal onClose={() => setShowModalb(false)} show={showModalb}>
