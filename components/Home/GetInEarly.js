@@ -39,8 +39,7 @@ export default function GetInEarly() {
             <div className="inner-container-right">
               <div className="right-left">
                 <div className="fill-cont">
-                  <div className="fill"></div>
-                  <div className="fill"></div>
+                  
                   <div className="fill"></div>
                   <div className="fill"></div>
                   <div className="fill"></div>
