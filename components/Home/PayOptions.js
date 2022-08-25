@@ -5,7 +5,7 @@ import { Accordion, Container } from "react-bootstrap";
 import Modal from "../Modal";
 import WalletModal from "./WalletModal";
 import UsdtModal from "./UsdtModal";
-import EthModal from "./EthModal";
+import BnbModal from "./BnbModal";
 import CardModal from "./CardModal";
 
 export default function PayOptions() {
@@ -58,10 +58,10 @@ export default function PayOptions() {
                       className="btn-1 same"
                       onClick={() => setShowModalc(true)}
                     >
-                      BUY BLOCKONNECT WITH ETH
+                      BUY BLOCKONNECT WITH BNB
                     </a>
                   </div>
-                  <div className="hhh">
+                  {/* <div className="hhh">
                     <a
                       className="btn-1 same"
                       onClick={() => setShowModald(true)}
@@ -76,7 +76,7 @@ export default function PayOptions() {
                     >
                       BUY BLOCKONNECT WITH USDT
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               
             </div>
@@ -94,7 +94,7 @@ export default function PayOptions() {
         <div className="heeaad1">
           <div>Exchange</div>
 
-          <EthModal />
+          <BnbModal />
         </div>
       </Modal>
       <Modal onClose={() => setShowModald(false)} show={showModald}>
