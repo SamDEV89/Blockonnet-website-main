@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
-      <Stages />
+      {/* <Stages /> */}
       <Features />
       <Nfts />
       <Roadmap />
