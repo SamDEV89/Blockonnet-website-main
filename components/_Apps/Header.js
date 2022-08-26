@@ -74,7 +74,7 @@ function Header({ type }) {
                 </Link>
               </li>
               <li>
-                <Link href={"/"}>
+                <Link href={"/howToBuy"}>
                   <a className="btn-1" onClick={() => setActive(!active)}>
                     Buy Presale
                   </a>
